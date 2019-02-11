@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NarendraComponent implements OnInit {
 
+person ='';
   constructor() { }
 
   ngOnInit() {
+	  this.person='narendra';
   }
 
 }
